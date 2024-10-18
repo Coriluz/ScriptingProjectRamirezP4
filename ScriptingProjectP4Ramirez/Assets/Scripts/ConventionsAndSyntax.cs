@@ -18,8 +18,8 @@ public class ConventionsAndSyntax : MonoBehaviour
         //I want to know what my Y location is at all times
         //Debug.Log(transform.position.y);
 
-        //I want the console to say something if my object is below 5
-        if(transform.position.y <= 5f)
+        //I want the console to say something if my object is below
+       if(transform.position.y <= 5f)
         {
             Debug.Log("I am about to hit the ground");
         }
